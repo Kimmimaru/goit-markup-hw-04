@@ -159,11 +159,17 @@ body {
 
 
 
+
 .sektion-one {
     background-color: #2e2f42;
     width: 100%;
     padding-top: 188px;
     padding-bottom: 188px;
+
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -219,6 +225,8 @@ body {
     color: #ffffff;
     cursor: pointer;
 }
+
+
 
 
 .sektion-two {
@@ -280,6 +288,8 @@ body {
 }
 
 
+
+
 .sektion-three {
     background-color: #FFFFFF;
     padding-top: 60px;
@@ -314,6 +324,8 @@ body {
     width: 360px;
     height: 300px;
 }
+
+
 
 
 .sektion-four {
@@ -374,7 +386,41 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
+    margin-bottom: 8px;
 }
+
+
+.four-ic-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+.four-ic-list-li {
+    width: 40px;
+    height: 40px;
+}
+
+
+.four-ic-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.four-icon {
+    width: 16px;
+    height: 16px;
+    fill: #F4F4FD;
+}
+
+
 
 
 .footer {
@@ -400,6 +446,9 @@ body {
     letter-spacing: 0.02em;
     max-width: 264px;
 }
+
+
+
 
 
 
