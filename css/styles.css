@@ -388,7 +388,8 @@ body {
 }
 
 .li-four-text {
-    padding: 32px 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .li-four-title {
@@ -413,13 +414,17 @@ body {
 .four-ic-list {
     display: flex;
     justify-content: center;
+
     gap: 24px;
+    height: 40px;
+    
 }
 
 
 .four-ic-list-li {
     width: 40px;
     height: 40px;
+    box-sizing: border-box;
 }
 
 
