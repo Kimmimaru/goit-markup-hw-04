@@ -414,12 +414,35 @@ body {
 }
 
 
+.four-ic-link:hover {
+    background-color: #fff;
+}
+
+
+
+
+
+.four-ic-link:focus {
+    background-color: #fff;
+}
+
+
+
 .four-icon {
     width: 16px;
     height: 16px;
     fill: #F4F4FD;
 }
 
+
+.four-ic-link:hover > .four-icon {
+    fill: #000000;
+}
+
+
+.four-ic-link:focus > .four-icon {
+    fill: #000000;
+}
 
 
 
