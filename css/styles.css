@@ -439,14 +439,67 @@ body {
 }
 
 
-.four-ic-link:hover > .four-icon {
-    fill: #000000;
+
+.sektion-five {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 
-.four-ic-link:focus > .four-icon {
-    fill: #000000;
+.sektion-five-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
 }
+    
+
+.sektion-five-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;    
+}
+
+
+.sektion-five-li {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+
+}
+
+
+.sektion-five-link {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8e8f99;
+}
+
+
+.sektion-five-ic {
+    fill: currentColor;
+}
+
+
+.sektion-five-link:hover {
+    border-color: #404bbf; 
+    color: #404bbf;
+}
+
+
+.sektion-five-link:focus {
+    border-color: #404bbf; 
+    color: #404bbf;
+}
+
 
 
 
