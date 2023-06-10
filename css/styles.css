@@ -50,8 +50,6 @@ body {
 
 .header>.container {
     display: flex;
-    justify-content: space-between;
-    width: 1128px;
 }
 
 
@@ -135,10 +133,8 @@ body {
 
 .addr {
     font-style: normal;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    margin-left: auto;
 }
 
 
@@ -162,13 +158,9 @@ body {
 
 .sektion-one {
     background-color: #2e2f42;
-    
     padding-top: 188px;
     padding-bottom: 188px;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
-    
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -188,11 +180,11 @@ body {
 .title {
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 48px;
     max-width: 496px;
+    margin: 0 auto;
 }
 
 
@@ -311,8 +303,6 @@ body {
 
 
 .sektion-three {
-    background-color: #FFFFFF;
-    padding-top: 60px;
     padding-bottom: 120px;
 }
 
