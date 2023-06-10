@@ -270,7 +270,7 @@ body {
 
 
 .li-t {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4); 
 }
 
 
@@ -379,7 +379,7 @@ body {
     border-radius: 0px 0px 4px 4px;
     width: 264px;
     text-align: center;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 
@@ -454,8 +454,6 @@ body {
 
 
 .four-icon {
-    width: 16px;
-    height: 16px;
     fill: #f4f4fd;
 }
 
