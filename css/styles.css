@@ -170,14 +170,6 @@ body {
 }
 
 
-.sektion-one>.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-
 .title {
     font-size: 56px;
     line-height: 1.07;
@@ -205,6 +197,7 @@ body {
     min-width: 169px;
     height: 56px;
     border: none;
+    margin: 0 auto;
 }
 
 
@@ -271,11 +264,6 @@ body {
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
-}
-
-
-.sektion-two-icon {
-
 }
 
 
